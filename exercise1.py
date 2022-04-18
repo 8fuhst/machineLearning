@@ -60,7 +60,7 @@ if __name__ == "__main__":
     poly_x, poly_y = create_polynomial(theta=result, dim=DIM)
     print(poly_y)
     plt.plot(poly_x, poly_y)
-    plt.title(f"Alpha {ALPHA}, DIM {DIM}, ITERATIONS {ITERATIONS}")
+    plt.title(f"Alpha {ALPHA}, D {DIM-1}, ITERATIONS {ITERATIONS}")
     plt.show()
 
     plt.title("Error over time")
